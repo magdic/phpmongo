@@ -17,7 +17,9 @@ foreach($cursor as $document) {
  //var_dump($document[name]);  
 echo "<pre>";
 $name = json_encode($document[nombre]);
+$lastname = json_encode($document[apellido]);
 echo str_replace('"', '', $name);
+echo str_replace('"', '', $lastname);
 echo "</pre>"; 
 } 
  
