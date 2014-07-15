@@ -12,7 +12,7 @@ catch(MongoConnectionException $e)
  
 $cursor = $collection->find();
 
-$collection->insert(array("nombre" => "Pedro"));
+$collection->insert(array("nombre" => "Pedro", "apellido" => "Cascante"));
 
 echo "<h2>Show result as JSON:</h2>";
 foreach($cursor as $document) {  
