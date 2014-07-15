@@ -13,7 +13,7 @@ if($accion == 'index') //Si la accion es index muestro listado de estudiantes
 	$registros = $estudiante->find(); //Realizo una busqueda general de todos los registros y lo guardo en una variable
 ?>
 <table>
-<tr><td><a href="second.php?accion=agregar">Nuevo</a></td></tr>
+<tr><td><a href="agregar.php">Nuevo</a></td></tr>
 </table>
 <br />
 <table border="1">
