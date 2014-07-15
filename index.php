@@ -12,6 +12,8 @@ catch(MongoConnectionException $e)
  
 $cursor = $collection->find();
 
+$collection->update(array("nombre" => "Pedro"));
+
 echo "<h2>Show result as JSON:</h2>";
 foreach($cursor as $document) {  
  //var_dump($document[name]);  
