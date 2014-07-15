@@ -13,7 +13,7 @@
 				'edad'=>$_POST['edad']
 				);  //Se debe guardar los datos en forma de array indicando nombre de "campo" => "valor"
 				$estudiante->insert($estu); //Luego insertar registro, puede ser simplificado creando el array dentro del insert
-				echo"<script language='javascript'>window.location='second.php'</script>"; //Redireccion al index
+				echo"<script language='javascript'>window.location='index.php'</script>"; //Redireccion al index
 			}
 			else //Si no ha hecho el post de enviar muestro el formulario de ingreso de datos
 			{
